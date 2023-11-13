@@ -1,0 +1,12 @@
+img{
+    width: 50%;
+    margin: 50px;
+    /* this is one way for shadow  */
+    /* box-shadow: 10px 10px 100px red; */
+    /* but this is best way  */
+
+
+    /* this will not create the box it will sprid around the object  */
+    filter: drop-shadow(10px 10px 100px  rgb(255, 0, 0));
+
+}   

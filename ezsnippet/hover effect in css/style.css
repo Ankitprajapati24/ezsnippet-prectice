@@ -1,0 +1,15 @@
+.content{
+    width: 400px;
+    height: 328px;
+    margin: 20px;
+    position: relative;
+    box-shadow: 1px 1px 20px 0px blue;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+.textContent{
+
+    padding: 5px;
+}

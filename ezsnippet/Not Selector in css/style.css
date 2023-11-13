@@ -1,0 +1,35 @@
+/* img{
+    width: 10%;
+    margin: 50px;
+     border: 2px solid thistle;
+     border-radius: 5px;
+} */
+
+/* i want when,i hover on picture it should glow up or should visibal properly  */
+
+
+
+img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+
+    /* thias is one way, when we use opecity */
+    /* opacity: 0.2; */
+}
+
+/* img:hover{
+    when we use using opecity 
+    opacity: 1;
+  
+} */
+ /* this is when we use not selecter csss property  */
+ .parent:hover > img:not(:hover){
+    opacity: 0.2;
+
+
+ }
+
+ 

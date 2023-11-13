@@ -1,0 +1,57 @@
+body {
+    background-color: #6f0d69;
+}
+
+
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 70vh;
+}
+
+
+
+
+.diya {
+    background-color: #f5950e;
+    height: 150px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 0 0 150px 150px;
+
+}
+
+.flame_contener {
+    width: 300px;
+    height: 60px;
+    background-color: #f5290e;
+    margin-bottom: -275px;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.flame-highlight {
+    height: 170px;
+    width: 170px;
+    background-color: #eed961;
+    border-radius: 160px 0;
+    transform: rotate(135deg);
+    margin-top: -165px;
+    margin-left: 60px;
+    opacity: 0.8;
+}
+
+.flame{
+    height: 120px;
+    width: 120px;
+    background-color: rgb(230, 131, 118);
+    border-radius: 160px 0;
+    transform: rotate(-180deg);
+    margin-top: -130px;
+    margin-left: 50px;
+    opacity: 0.8;
+    
+
+}
